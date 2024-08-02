@@ -11,20 +11,35 @@
     --black-color: #080909;
     --red-color: #f71a1a;
   }
-  body{
+  body{ 
     display: flex;
     min-height: 100vh;
     align-items: center;
     justify-content: center;
-    background: var(--primary-color);
+    background: var(--primary-color); 
+  }
+  .border{
+    position: relative;
+    top: 100%;
+    border: 15px solid black ;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 50%;
+    width: 550px;
+    height: 560px;
+  
   }
   .continer{
+  
+    border-radius: 50%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 60px;
+    gap: 50px;
   }
   .container .clock { 
+   
     display: flex;
     height: 300px;
     width: 300px;
@@ -57,6 +72,7 @@
     justify-content: center;
   }
   .indicator .hand {
+    margin-left: 275px;
     position: relative;
     top: 180px;
     display: flex;
@@ -70,6 +86,7 @@
     align-items: center;
   }
   .hand.minute {
+    margin-left: 10%;
     position: relative;
     top: 180px;
     display: flex;
@@ -79,9 +96,10 @@
     justify-content: center;
     align-items: center;
   }
-  .hand.hour {
+   .hand.hour {
+    margin-left: 40%;
     position: relative;
-    top: 47px;
+    top:40px;
     display: flex;
     height: 100px;
     width: 8px;
