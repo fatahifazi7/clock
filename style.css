@@ -74,10 +74,10 @@
   .indicator .hand {
     margin-left: 275px;
     position: relative;
-    top: 180px;
+    top: 170px;
     display: flex;
     position: absolute;
-    height: 130px;
+    height: 140px;
     width: 4px;
     bottom: 0;
     border-radius: 25px;
@@ -86,23 +86,30 @@
     align-items: center;
   }
   .hand.minute {
-    margin-left: 10%;
+    margin-left: 275px;
     position: relative;
     top: 180px;
     display: flex;
+    position: absolute;
     height: 120px;
     width: 5px;
+    bottom: 0;
+    border-radius: 25px;
+    transform-origin: bottom;
     background:var(--black-color);
-    justify-content: center;
     align-items: center;
   }
    .hand.hour {
-    margin-left: 40%;
+    margin-left: 275px;
     position: relative;
-    top:40px;
+    top:209px;
     display: flex;
+    position: absolute;
     height: 100px;
     width: 8px;
+    bottom: 0;
+    border-radius: 25px;
+    transform-origin: bottom;
     background: var(--black-color);
     align-items: center;
   }
