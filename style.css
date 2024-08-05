@@ -6,7 +6,7 @@
     font-family: "Poppins", sans-serif;
   }
   :root {
-    --primary-color: #3bdfee;
+    --primary-color: #e3f610;
     --white-color: rgb(254, 255, 249);
     --black-color: #080909;
     --red-color: #f71a1a;
@@ -26,8 +26,8 @@
     align-items: center;
     display: flex;
     border-radius: 50%;
-    width: 550px;
-    height: 560px;
+    width: 600px;
+    height: 600px;
   
   }
   .continer{
@@ -72,9 +72,9 @@
     justify-content: center;
   }
   .indicator .hand {
-    margin-left: 275px;
+    margin-left: 300px;
     position: relative;
-    top: 170px;
+    top: 160px;
     display: flex;
     position: absolute;
     height: 140px;
@@ -86,9 +86,9 @@
     align-items: center;
   }
   .hand.minute {
-    margin-left: 275px;
+    margin-left: 300px;
     position: relative;
-    top: 180px;
+    top: 160px;
     display: flex;
     position: absolute;
     height: 120px;
@@ -100,9 +100,9 @@
     align-items: center;
   }
    .hand.hour {
-    margin-left: 275px;
+    margin-left: 295px;
     position: relative;
-    top:209px;
+    top:205px;
     display: flex;
     position: absolute;
     height: 100px;
@@ -113,3 +113,4 @@
     background: var(--black-color);
     align-items: center;
   }
+
